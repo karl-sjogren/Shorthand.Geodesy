@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C765AEDD-83BC-48EE-AB1E-0CF6820AD1FA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Shorthand.Geodesy</RootNamespace>
+    <AssemblyName>Shorthand.Geodesy</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Shorthand.Geodesy.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Shorthand.Geodesy.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ellipsoids\Bessel1841.cs" />
+    <Compile Include="Ellipsoids\Ellipsoid.cs" />
+    <Compile Include="Ellipsoids\GRS80.cs" />
+    <Compile Include="Ellipsoids\WGS84.cs" />
+    <Compile Include="Extensions\Double.cs" />
+    <Compile Include="GaussKruger.cs" />
+    <Compile Include="GeodeticCoordinate.cs" />
+    <Compile Include="GridCoordinate.cs" />
+    <Compile Include="DistanceCalculator.cs" />
+    <Compile Include="Projections\SWEREF99_2315.cs" />
+    <Compile Include="Projections\SWEREF99_2145.cs" />
+    <Compile Include="Projections\SWEREF99_1845.cs" />
+    <Compile Include="Projections\SWEREF99_1715.cs" />
+    <Compile Include="Projections\SWEREF99_1545.cs" />
+    <Compile Include="Projections\SWEREF99_1415.cs" />
+    <Compile Include="Projections\SWEREF99_1800.cs" />
+    <Compile Include="Projections\SWEREF99_1630.cs" />
+    <Compile Include="Projections\SWEREF99_1500.cs" />
+    <Compile Include="Projections\SWEREF99_1330.cs" />
+    <Compile Include="Projections\SWEREF99_2015.cs" />
+    <Compile Include="Projections\SWEREF99_1200.cs" />
+    <Compile Include="Projections\Projection.cs" />
+    <Compile Include="Projections\RT90_00GonV.cs" />
+    <Compile Include="Projections\RT90_25GonO.cs" />
+    <Compile Include="Projections\RT90_25GonV.cs" />
+    <Compile Include="Projections\RT90_50GonO.cs" />
+    <Compile Include="Projections\RT90_50GonV.cs" />
+    <Compile Include="Projections\RT90_75GonV.cs" />
+    <Compile Include="Projections\SwedishProjections.cs" />
+    <Compile Include="Projections\SWEREF99.cs" />
+    <Compile Include="Projections\SWEREF99TM.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shapes\GeodeticCircle.cs" />
+    <Compile Include="Shapes\GeodeticShape.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="References.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shorthand.Geodesy.nuspec" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

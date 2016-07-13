@@ -1,0 +1,7 @@
+﻿Information about the Gauss Kruger-algorithm can be found at http://www.lantmateriet.se/upload/filer/kartor/geodesi_gps_och_detaljmatning/geodesi/Formelsamling/Gauss_Conformal_Projection.pdf.
+
+Information about the RT90-projections can be found at http://www.lantmateriet.se/upload/filer/kartor/geodesi_gps_och_detaljmatning/Transformationer/SWEREF99_RT90_Samband/Transformationsparametrar_pdf.pdf
+
+More SWEREF-projections could later be added from the information found here: http://www.lantmateriet.se/templates/LMV_Page.aspx?id=6511
+
+The formulas used in DistanceCalculator.cs were partially derived from code published by Chris Veness at http://www.movable-type.co.uk/scripts/latlong.html.

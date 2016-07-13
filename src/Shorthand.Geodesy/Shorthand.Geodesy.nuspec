@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Karl-Johan Sjögren</authors>
+    <owners>Karl-Johan Sjögren</owners>
+    <licenseUrl>https://github.com/karl-sjogren/Shorthand.Geodesy/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/karl-sjogren/Shorthand.Geodesy</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A small library with helper methods to convert between WGS84 and RT90/SWEREF. Also has utilities to calculate distances between coordinates.</description>
+    <releaseNotes>Initial release after cleaning the project up and moving from CodePlex.</releaseNotes>
+    <copyright>Copyright 2010-2016</copyright>
+    <tags>rt90 sweref sweref99 gausskreuger wgs84 coordinates geodesy</tags>
+  </metadata>
+</package>
