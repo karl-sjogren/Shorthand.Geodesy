@@ -6,8 +6,9 @@
     <RootNamespace>Shorthand.Geodesy</RootNamespace>
     <Copyright>Copyright © Karl-Johan Sjögren 2010-216</Copyright>
     <Company>Shorthand Software</Company>
-    <AssemblyVersion>1.1.0.0</AssemblyVersion>
-    <FileVersion>1.1.0.0</FileVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
+    <Version>1.2.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

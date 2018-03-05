@@ -6,8 +6,8 @@
     <AssemblyName>Shorthand.Geodesy.Tests</AssemblyName>
     <RootNamespace>Shorthand.Geodesy.Tests</RootNamespace>
     <Copyright>Copyright © Karl-Johan Sjögren 2010-216</Copyright>
-    <AssemblyVersion>1.1.0.0</AssemblyVersion>
-    <FileVersion>1.1.0.0</FileVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
     <Company>Shorthand Software</Company>
     <Product>Shorthand.Geodesy</Product>
   </PropertyGroup>
