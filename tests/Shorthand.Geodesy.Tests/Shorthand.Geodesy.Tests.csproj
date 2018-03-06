@@ -1,15 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFrameworks>net46;netcoreapp1.1;netcoreapp2.0</TargetFrameworks>
+    <TargetFrameworks>netcoreapp2.0;netcoreapp1.1</TargetFrameworks>
     <IsPackable>false</IsPackable>
-    <AssemblyName>Shorthand.Geodesy.Tests</AssemblyName>
-    <RootNamespace>Shorthand.Geodesy.Tests</RootNamespace>
-    <Copyright>Copyright © Karl-Johan Sjögren 2010-216</Copyright>
-    <AssemblyVersion>1.2.0.0</AssemblyVersion>
-    <FileVersion>1.2.0.0</FileVersion>
-    <Company>Shorthand Software</Company>
-    <Product>Shorthand.Geodesy</Product>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,9 +13,4 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\Shorthand.Geodesy\Shorthand.Geodesy.csproj" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
-
 </Project>

@@ -1,18 +1,17 @@
+
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFrameworks>net46;netstandard1.3;netstandard2.0</TargetFrameworks>
+    <Title>Shorthand.Geodesy</Title>
+    <Description>A small library with helper methods to convert between WGS84 and RT90/SWEREF. Also has utilities to calculate distances between coordinates.</Description>
+    <VersionPrefix>1.2.0</VersionPrefix>
+    <TargetFrameworks>netstandard2.0;netstandard1.0</TargetFrameworks>
     <AssemblyName>Shorthand.Geodesy</AssemblyName>
-    <RootNamespace>Shorthand.Geodesy</RootNamespace>
-    <Copyright>Copyright © Karl-Johan Sjögren 2010-216</Copyright>
-    <Company>Shorthand Software</Company>
-    <AssemblyVersion>1.2.0.0</AssemblyVersion>
-    <FileVersion>1.2.0.0</FileVersion>
-    <Version>1.2.0</Version>
+    <Authors>Karl-Johan Sjögren</Authors>
+    <PackageProjectUrl>https://github.com/karl-sjogren/rShorthand.Geodesy</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/karl-sjogren/Shorthand.Geodesy/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageId>Shorthand.Geodesy</PackageId>
+    <PackageTags>rt90;sweref;sweref99;gausskreuger;wgs84;coordinates;geodesy</PackageTags>
+    <IncludeSymbols>true</IncludeSymbols>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
-
 </Project>
