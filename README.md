@@ -1,4 +1,4 @@
-# Shorthand.Geodesy [![Build Status](https://travis-ci.org/karl-sjogren/robots-txt-middleware.svg?branch=master)](https://travis-ci.org/karl-sjogren/robots-txt-middleware)
+# Shorthand.Geodesy [![Build Status](https://travis-ci.org/karl-sjogren/Shorthand.Geodesy.svg?branch=master)](https://travis-ci.org/karl-sjogren/Shorthand.Geodesy)
 
 Helper methods to convert between WGS84 and RT90/SWEREF99 and calculate distances between coordinates.
 
