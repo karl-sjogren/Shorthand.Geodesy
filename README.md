@@ -45,3 +45,12 @@ double distance = DistanceCalculator.Haversine(coordinate1, coordinate2);
 ```
 
 The result of the above calculation should be slightly over 5 kilometers.
+
+
+
+### Run tests
+
+```
+dotnet test .\tests\Shorthand.Geodesy.Tests\
+```
+

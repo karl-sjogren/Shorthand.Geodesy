@@ -1,16 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shorthand.Geodesy", "src\Shorthand.Geodesy\Shorthand.Geodesy.csproj", "{C765AEDD-83BC-48EE-AB1E-0CF6820AD1FA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shorthand.Geodesy.Tests", "tests\Shorthand.Geodesy.Tests\Shorthand.Geodesy.Tests.csproj", "{DEBE7A48-255D-4599-822B-928BDE0EEB3E}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{FE09E208-110F-4E7A-928F-414DAD937977}"
 	ProjectSection(SolutionItems) = preProject
 		LICENSE = LICENSE
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shorthand.Geodesy", "src\Shorthand.Geodesy\Shorthand.Geodesy.csproj", "{7B959D01-FC0E-49AB-8110-3A72C058F552}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shorthand.Geodesy.Tests", "tests\Shorthand.Geodesy.Tests\Shorthand.Geodesy.Tests.csproj", "{577DD981-2574-4D80-B816-BF2F651D4237}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,17 +18,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C765AEDD-83BC-48EE-AB1E-0CF6820AD1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C765AEDD-83BC-48EE-AB1E-0CF6820AD1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C765AEDD-83BC-48EE-AB1E-0CF6820AD1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C765AEDD-83BC-48EE-AB1E-0CF6820AD1FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DEBE7A48-255D-4599-822B-928BDE0EEB3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DEBE7A48-255D-4599-822B-928BDE0EEB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DEBE7A48-255D-4599-822B-928BDE0EEB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DEBE7A48-255D-4599-822B-928BDE0EEB3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B959D01-FC0E-49AB-8110-3A72C058F552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B959D01-FC0E-49AB-8110-3A72C058F552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B959D01-FC0E-49AB-8110-3A72C058F552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B959D01-FC0E-49AB-8110-3A72C058F552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577DD981-2574-4D80-B816-BF2F651D4237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577DD981-2574-4D80-B816-BF2F651D4237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577DD981-2574-4D80-B816-BF2F651D4237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577DD981-2574-4D80-B816-BF2F651D4237}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FBA16F7-B0B0-46E7-8D82-D766BD07FCD6}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Shorthand.Geodesy.vsmdi
