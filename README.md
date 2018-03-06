@@ -1,11 +1,12 @@
-# Shorthand.Geodesy
+# Shorthand.Geodesy [![Build Status](https://travis-ci.org/karl-sjogren/robots-txt-middleware.svg?branch=master)](https://travis-ci.org/karl-sjogren/robots-txt-middleware)
+
 Helper methods to convert between WGS84 and RT90/SWEREF99 and calculate distances between coordinates.
 
 This was earlier published to CodePlex under the name CrazyBeavers Geodesy (also by me) but I've cleaned up the code and renamed it from its old silly name when moving to GitHub.
 
 ## Installation
 
-Install the nuget package using ``Install-Package Shorthand.Geodesy`` or clone and reference the project in the repository.
+Install the nuget package using ``Install-Package Shorthand.Geodesy``, ``dotnet add Shorthand.Geodesy`` or clone and reference the project in the repository.
 
 ## Usage
 
@@ -45,8 +46,6 @@ double distance = DistanceCalculator.Haversine(coordinate1, coordinate2);
 ```
 
 The result of the above calculation should be slightly over 5 kilometers.
-
-
 
 ### Run tests
 
