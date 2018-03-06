@@ -8,7 +8,7 @@
     <TargetFrameworks Condition="'$(OS)' == 'Windows_NT'">$(TargetFrameworks);net46</TargetFrameworks>
     <AssemblyName>Shorthand.Geodesy</AssemblyName>
     <Authors>Karl-Johan Sjögren</Authors>
-    <PackageProjectUrl>https://github.com/karl-sjogren/rShorthand.Geodesy</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/karl-sjogren/Shorthand.Geodesy</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/karl-sjogren/Shorthand.Geodesy/blob/master/LICENSE</PackageLicenseUrl>
     <PackageId>Shorthand.Geodesy</PackageId>
     <PackageTags>rt90;sweref;sweref99;gausskreuger;wgs84;coordinates;geodesy</PackageTags>
